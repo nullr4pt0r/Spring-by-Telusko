@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="alien" class="SpringCore.Alien" autowire="byName">
+    <bean id="alien" class="SpringCore.Alien" autowire="byType">
 <!--        Constructor args to inject via constructor-->
         <constructor-arg value="10"></constructor-arg>
 <!--        use setter injection for optional one-->
