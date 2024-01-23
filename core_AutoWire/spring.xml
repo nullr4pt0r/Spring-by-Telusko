@@ -11,8 +11,8 @@
 <!--        use ref to inject reference object-->
 <!--        <property name="laptop" ref="laptop"/>-->
     </bean>
-
-    <bean id="com" class="SpringCore.Laptop">
+<!--use setter injection or primary when using autowire byType-->
+    <bean id="com" class="SpringCore.Laptop" primary="true">
     </bean>
 
     <bean id="desk" class="SpringCore.Desktop">
